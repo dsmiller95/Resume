@@ -3,4 +3,5 @@
 # Load values from the configuration file
 source usr.cfg
 
-$xelatexInstallPath/xelatex $1
+cd content
+$xelatexInstallPath/xelatex "$1.tex"
