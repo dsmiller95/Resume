@@ -10,6 +10,9 @@ usr.cfg
 *.fls
 *.out
 *.toc
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
 
 ## Intermediate documents:
 *.dvi
