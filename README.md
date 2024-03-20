@@ -5,7 +5,7 @@ This is my resume's latex source code. Forked from [Awesome-CV](https://github.c
 ## Quickstart
 
 1. [Install TexLive on windows](https://tug.org/texlive/windows.html)
-2. add the \texlive\2024\bin\windows path to your windows #PATH variable, it must point to the folder containing texlive executables (latex, xelatex, pdflatex)
+2. add the \texlive\2024\bin\windows path to your windows $PATH environment variable, it must point to the folder containing texlive executables (latex, xelatex, pdflatex)
 1. install Latex Workshop vscode extension
 2. open resume.tex
 3. open the Latex Workshop sidebar
