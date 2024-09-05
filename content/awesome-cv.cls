@@ -801,3 +801,18 @@
       \letterenclosurestyle{\@letterenclname: \@letterenclosure} \\
     }
 }
+
+
+
+
+\newenvironment{skills}{%
+  \begin{tabular*}{0.7\textwidth}{@{\extracolsep{\fill}}lll}
+}{%
+  \end{tabular*}
+}
+\newcommand*{\skillheading}[3]{%
+  \textbf{#1} & \textbf{#2} & \textbf{#3} \\
+}
+\newcommand*{\skillrow}[3]{%
+  \textbullet\ \text{#1} & \textbullet\ \text{#2} & \textbullet\ \text{#3} \\
+}
