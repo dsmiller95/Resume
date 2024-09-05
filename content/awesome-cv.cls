@@ -806,7 +806,7 @@
 
 
 \newenvironment{skills}{%
-  \begin{tabular*}{0.7\textwidth}{@{\extracolsep{\fill}}lll}
+  \begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}}lll}
 }{%
   \end{tabular*}
 }
