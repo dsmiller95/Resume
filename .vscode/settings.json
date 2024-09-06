@@ -61,5 +61,12 @@
                 "tectonic"
             ]
         }
-    ]
+    ],
+    "files.exclude": {
+        "**/*.aux": true,
+        "**/*.fdb_latexmk": true,
+        "**/*.fls": true,
+        "**/*.synctex.gz": true,
+        "**/*.xdv": true
+    }
 }
